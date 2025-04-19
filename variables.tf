@@ -47,3 +47,8 @@ variable "tfe_organization" {
   description = "(Required) Name of the TFE organization to use."
 
 }
+
+variable "playbook_repository" {
+  type        = string
+  description = "(Required) URL of the Ansible playbook repository."
+}
